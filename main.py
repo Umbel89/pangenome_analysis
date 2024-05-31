@@ -92,7 +92,7 @@ def input_options():
     def_input_chrom = 'all'
     def_cluster_threshold = 0.6
     # input parser
-    parser = argparse.ArgumentParser(description="Compare protein sequence identities of orthogroups between samples.")
+    parser = argparse.ArgumentParser(description="Parse and annotate a pangenome graph, and plot its variation.")
     parser.add_argument('-i', '--input_gfa', metavar="FILE", type=input_file, required=True,
                         help="File location of pangenome graph gfa.gz file.")
     parser.add_argument('-g', '--gene_gff_dir', metavar="STR", type=str, required=True,
