@@ -9,7 +9,7 @@ git clone https://github.com/Umbel89/pangenome_analysis.git
 ```
 
 ## Usage
-```bash
+```
 python main.py --help
 
 usage: main.py [-h] -i FILE -g STR -r STR -e STR -o STR [-c STR] [-t FLOAT]
