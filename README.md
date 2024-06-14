@@ -16,8 +16,9 @@ usage: main.py [-h] -i FILE -g STR -r STR -e STR -o STR [-c STR] [-t FLOAT]
 
 Parse and annotate a pangenome graph, and plot its variation.
 
-optional arguments:
   -h, --help            show this help message and exit
+
+required arguments:
   -i FILE, --input_gfa FILE
                         File location of pangenome graph gfa.gz file.
   -g STR, --gene_gff_dir STR
@@ -29,6 +30,8 @@ optional arguments:
                         graph. dir/[sample]*.txt
   -o STR, --output_dir STR
                         Directory where output will be written.
+
+optional arguments:
   -c STR, --input_chrom STR
                         Specify a chromosome to be parsed. [default=all]
   -t FLOAT, --cluster_threshold FLOAT
