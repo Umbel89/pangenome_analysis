@@ -9,6 +9,7 @@ git clone https://github.com/Umbel89/pangenome_analysis.git
 ```
 
 ## Usage
+The whole pipeline is executed by running the main.py script:
 ```
 python main.py --help
 
