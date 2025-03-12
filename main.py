@@ -108,7 +108,7 @@ def input_options():
     parser.add_argument('-c', '--input_chrom', default=def_input_chrom, type=str, metavar="STR",
                         help=f"Specify a chromosome to be parsed. [default={def_input_chrom}]")
     parser.add_argument('-t', '--cluster_threshold', default=def_cluster_threshold, type=float, metavar="FLOAT",
-                        help=f"Define orthogroups of genes that their distance is bellow this threshold."
+                        help=f"Gene orthogroups are defined by grouping genes with distance bellow this threshold."
                              f" [default={def_cluster_threshold}]")
 
     return parser.parse_args()
