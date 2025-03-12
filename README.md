@@ -36,7 +36,7 @@ optional arguments:
   -c STR, --input_chrom STR
                         Specify a chromosome to be parsed. [default=all]
   -t FLOAT, --cluster_threshold FLOAT
-                        Define orthogroups of genes that their distance is bellow this threshold. [default=0.6]
+                        Gene orthogroups are defined by grouping genes with distance bellow this threshold. [default=0.6]
 
 ```
 
