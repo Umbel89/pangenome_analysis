@@ -41,4 +41,4 @@ optional arguments:
 ```
 
 ## Cite
-[Skiadas, P. *et al*. (2024), Unpublished: Pangenome graph analysis reveals extensive effector copy-number variation in spinach downy mildew](https://www.biorxiv.org/content/10.1101/2024.05.30.596583v1)
+Skiadas P, Riera Vidal S, Dommisse J, Mendel MN, Elberse J, Van den Ackerveken G, et al. (2024) Pangenome graph analysis reveals extensive effector copy-number variation in spinach downy mildew. PLoS Genet 20(10): e1011452. https://doi.org/10.1371/journal.pgen.1011452
